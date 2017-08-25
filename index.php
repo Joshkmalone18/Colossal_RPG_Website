@@ -9,7 +9,7 @@
   #navigation ul li {display: inline; margin-right: 3px; }
   #navigation ul li a {background: #9afaf1; text-decoration: none; padding: 10px 10px 6px 10px; text-transfform: uppercase; border-left: 1px solid #cefffa; border-top: 1px solid #cefffa; border-right: 1px solid #cefffa; background-color: #77d5f9; }
   #navigation ul li.current_page_item a, #navigation ul li a:hover {color: #3f312e; border-left: 1plx solid #fff; border-top: 1px solid #fff; border-right: 1px solid #fff; background: #fff; }
-  #container { overflow: auto; width: 960px; margin: 0 auto; }
+  #container { overflow: auto; width: 960px; margin: 0 auto; padding: 10px; background: #000; }
   #content {width: 960px; min-height: 400px; margin: 0 auto; background: #fff; }
   #contentleft { width: 580px; float: left; margin-right: 20px: }
   #sidebar { width: 280px; float: left; }
