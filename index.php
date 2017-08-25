@@ -5,6 +5,10 @@
   body { color: #3f312e; background: #77d5f9; font: 14px Helvetica, Arial, Sans-serif; } 
   #header { width: 960px; min-height: 150px; margin: 0 auto; }
   #navigation { width: 960px; margin: 0 auto; }
+  #navigation ul { margin: 0; padding: 0; list-style-type: none; }
+  #navigation ul li {display: inline; margin-right: 3px; }
+  #navigation ul li a {background: #9afaf1; text-decoration: none; padding: 10px 10px 6px 10px; text-transfform: uppercase; border-left: 1px solid #cefffa; border-top: 1px solid #cefffa; border-right: 1px solid #cefffa; background-color: #77d5f9; }
+  #navigation ul li.current_page_item a, #navigation ul li a:hover {color: #3f312e; border-left: 1plx solid #fff; border-top: 1px solid #fff; border-right: 1px solid #fff; background: #fff; }
   #container { overflow: auto; width: 960px; margin: 0 auto; }
   #content {width: 960px; min-height: 400px; margin: 0 auto; background: #fff; }
   #contentleft { width: 580px; float: left; margin-right: 20px: }
