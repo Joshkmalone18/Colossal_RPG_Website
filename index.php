@@ -16,7 +16,14 @@
   #sidebar { width: 280px; float: left; padding: 20px; }
   .sidebar-element { overflow: auto; margin-top: 15px; }
   #sidebar h3 { color: #fff; background: #53777a; padding: 7px 10px; text-transform: uppercase; font-size: 14px: }
-  #footer { width: 960px; margin: 0 auto; }
+  #sidebar ul { margin: 0; padding 0; list-style-type: none; }
+  #sidebar ul li { margin: 0 0 7px 0; }
+  #footer { width: 960px; margin: 0 auto; text-align: center; }
+  #footer ul {margin: 15px 0 0 0; padding: 0; list-styler-type: none; }
+  #footer ul li { display: inline; margin-right: 5px; }
+  #footer ul li a { text-transform: uppercase; text-decoration: none; }
+  #footer ul li a:hover { text-decoration: underline; }
+  #footer p { font-weight: bold; }
 </style>
 </head>
 <body>
@@ -49,6 +56,14 @@
   <p>I started drawing Miniatures a local table that I run and people began to ask where I had bought them, and just like that Colossal RPG was born</p>
   <p>Since then I've branched out into other things that everyone may need for their game.
   </div><!--Sidebar-elemnet-->
+  
+<div class="sidebar-element">
+<h3>Follow Us on Social Media!</h3>
+    <ul>
+    <li><a href="">Twitter</a></li>
+    <li><a href="">Facebook</a></li>
+  </ul>
+  </div><!--sidebar-element-->
 </div><!--sidebar-->
   
 </div><!--content-->
