@@ -1,4 +1,4 @@
-<?php include('header.html') ; ?>
+<?php include('header.php') ; ?>
 
 
 <div id="container">
@@ -10,9 +10,9 @@
   <p>If your intrested in anything please Email us at Colossalrpg@gmail.com!
 </div><!--contentleft-->
 
-<?php include('sidebar.html'); ?>
+<?php include('sidebar.php'); ?>
   
 </div><!--content-->
 </div><!--container-->
 
-<?php include('footer.html'): ?>
+<?php include('footer.php'): ?>
