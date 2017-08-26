@@ -1,46 +1,5 @@
-<html>
-<head>
-<title>Colossal RPG</title>
-<style>
-  body { color: #000; background: #0fbcab url('website_background.png') repeat-x; font: 14px Helvetica, Arial, Sans-serif; } 
-  a { color: #000504; }
-  img { border: none; }
-  #header { width: 1200px; min-height: 150px; margin: 0 auto; }
-  #navigation { width: 1200px; margin: 0 auto; position: relative; top: 4px; }
-  #navigation ul { margin: 0; padding: 0; list-style-type: none; }
-  #navigation ul li {display: inline; margin-right: 3px; }
-  #navigation ul li a {background: #070f0e; text-decoration: none; padding: 10px 10px 6px 10px; text-transfform: uppercase; border-left: 1px solid #0fbcab; border-top: 1px solid #0fbcab; border-right: 1px solid #0fbcab; background-color: #2de5d3; }
-  #navigation ul li.current_page_item a, #navigation ul li a:hover {color: #3f312e; border-left: 1plx solid #fff; border-top: 1px solid #fff; border-right: 1px solid #fff; background: #fff url('navigation-bar-background.png') repeat-x left top; }
-  #container { overflow: auto; width: 1200px; margin: 0 auto; padding: 10px; background: url('container-background.png'); }
-  #content {width: 1200px; min-height: 400px; margin: 0 auto; background: #fff; }
-  #contentleft { width: 580px; float: left; margin-right: 20px; padding: 20px; }
-  #contentleft h1 { font-size: 24px; margin-top: 0; }
-  #sidebar { width: 280px; float: left; padding: 20px; }
-  .sidebar-element { overflow: auto; margin-top: 15px; }
-  #sidebar h3 { color: #fff; background: #24d6c4; padding: 7px 10px; text-transform: uppercase; font-size: 14px: }
-  #sidebar ul { margin: 0; padding 0; list-style-type: none; }
-  #sidebar ul li { margin: 0 0 7px 0; }
-  #footer { width: 960px; margin: 0 auto; text-align: center; }
-  #footer ul {margin: 15px 0 0 0; padding: 0; list-styler-type: none; }
-  #footer ul li { display: inline; margin-right: 5px; }
-  #footer ul li a { text-transform: uppercase; text-decoration: none; }
-  #footer ul li a:hover { text-decoration: underline; }
-  #footer p { font-weight: bold; }
-</style>
-</head>
-<body>
-<div id="header">
-  <a href="https://colossalrpg.netlify.com/"><img src="website-logo.png" alt="Colossal RPG" /></a>
-</div><!--header-->
+<?php include('header.html') ; ?>
 
-<div id="navigation">
-  <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">Miniatures</a></li>
-    <li><a href="">Contact</a></li>
-  </ul>
-
-</div><!--navigation-->
 
 <div id="container">
 <div id="content">
@@ -51,34 +10,9 @@
   <p>If your intrested in anything please Email us at Colossalrpg@gmail.com!
 </div><!--contentleft-->
 
-<div id="sidebar">
-<div class="sidebar-element">  
-  <h3>About Me</h3>
-  <p>I'm a local artist who simply loves playing boardgames, specifically Dungeons and Dragons.I started drawing Miniatures a local table that I run and people began to ask where I had bought them, and just like that Colossal RPG was born. Since then I've branched out into other things that everyone may need for their game. </p>
-  </div><!--Sidebar-elemnet-->
-  
-<div class="sidebar-element">
-<h3>Follow Us on Social Media!</h3>
-    <ul>
-    <li><a href="">Twitter</a></li>
-    <li><a href="">Facebook</a></li>
-  </ul>
-  </div><!--sidebar-element-->
-</div><!--sidebar-->
+<?php include('sidebar.html'); ?>
   
 </div><!--content-->
 </div><!--container-->
 
-<div id="footer">
-  <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">Miniatures</a></li>
-    <li><a href="">Contact</a></li>
-  </ul>
-<p>&copy;2017 colossalrpg.com</p>
-</div><!--footer-->
-
-</body>
-
-</head>
-</html>
+<?php include('footer.html'): ?>
