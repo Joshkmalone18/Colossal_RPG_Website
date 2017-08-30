@@ -11,7 +11,7 @@ img { border: none; }
 #content {width: 1200px; min-height: 800px; margin: 0 auto; background: #fff; }
 #contentleft { width: 680px; float: left; margin-right: 20px; padding: 20px; }
 #contentleft h1 { font-size: 24px; margin-top: 0; text-transform: uppercase; }
-#contentleft h2 { font-size: 24px; text-transform: uppercase; color: #fff;, background: #24d6c4;, padding: 7px 10px; }
+#contentleft h2 { font-size: 24px; text-transform: uppercase; color: #fff; background: #24d6c4;, padding: 7px 10px; }
 #mainbar { width:380px; float: left; padding: 20px;}
 .mainbar-element {overflow: auto; margin-top: 15px; }
 #sidebar { width: 380px; float: left; padding: 20px; }
